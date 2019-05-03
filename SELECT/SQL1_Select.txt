@@ -1,0 +1,8 @@
+//SQL QUERIES 
+//To select all the info for cities in USA with population >100000
+
+SELECT *
+FROM CITY
+WHERE
+    COUNTRYCODE = 'USA'
+    AND POPULATION > 100000;
